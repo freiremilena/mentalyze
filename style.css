@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;500;800&family=Roboto:ital,wght@0,300;0,400;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;500;800&family=Roboto:ital,wght@0,300;0,400;1,700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +28,7 @@ header {
 }
 
 body {
-  font: 400 1rem "DM Sans", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   color: var(--text-color);
   background: var(--body-color);
   -webkit-font-smoothing: antialiased;
@@ -43,6 +47,7 @@ body {
   padding-bottom: 1.6rem;
 }
 .text h1 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
   margin-bottom: 1rem;
   font-size: 54px;
 }
@@ -52,11 +57,13 @@ body {
 }
 
 .text h3 {
+  font-family: "Roboto", sans-serif;
   margin-bottom: 1rem;
   font-size: 12px;
 }
 
 .btns {
+  font-family: 'Roboto', sans-serif;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -72,11 +79,15 @@ body {
   justify-content: center;
   padding: 0 1rem;
   border-radius: 0.35rem;
-  font: 500 1rem "DM Sans", sans-serif;
-  transition: background 0.3s;
+
   font-size: 18px;
   font-weight: bold;
 }
+.btn_1:hover {
+  background-color: #ccdee2;
+  color: #19b5d8;
+}
+
 .btn_2 {
   background-color: var(--amarelo-color);
   color: var(--text-color-amarelo);
@@ -87,10 +98,12 @@ body {
   justify-content: center;
   padding: 0 1rem;
   border-radius: 0.35rem;
-  font: 500 1rem "DM Sans", sans-serif;
-  transition: background 0.3s;
   font-size: 18px;
   font-weight: bold;
+}
+.btn_2:hover {
+  background-color: #f1d692;
+  color: #bd9122;
 }
 
 .title {
